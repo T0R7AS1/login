@@ -1,0 +1,130 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    vertical-align: top;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+    /* background blury img */
+  .background {
+    background: no-repeat center center fixed; 
+    display: inline-block;
+    left: -5px;
+    top:-5px;
+    bottom:-5px;
+    position: fixed;
+    right: -5px;
+    z-index: 1;
+    filter: blur(60px);
+    -webkit-background-size: cover;
+    margin:-100px;
+  }
+  
+  .container {
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    height: 65%;
+  }
+
+/*left side */
+    .img-holder{
+      margin-top: 5%;
+      display: inline-block;
+      background-size: cover;
+      height: 80%;
+      width: 40%;
+      float: left;
+      text-align: center;
+      background-image: url(desert.jpg);
+    }
+    .img-holder a {
+        color: wheat;
+        display: inline-block;
+    }
+    .img-holder p {
+        color: wheat;
+        display: inline-block;
+    }
+    .img-holder h1 {
+        padding-bottom: 69%;
+        padding-top: 7%;
+        font-size: 36px;
+        margin-right: 50%;
+        color: wheat;
+        font-family: inherit;
+    }
+    /* X */
+    .btn-x{
+        display: inline-block;
+        float: right;
+        font-size: 40px;
+        cursor: pointer;
+        margin-right: 20px;
+        color: lightgrey;
+    }
+    /* Form */
+    .form-container{
+        display: inline-block;
+        height: 100%;
+        width: 60%;
+        background-color: white;
+        }
+    label{
+        text-transform: uppercase;
+        font-size: 15px;
+        color: lightgrey;
+        width: 100%;
+        
+    }
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-top: 9%;
+    }
+    form{
+        width: 100%;
+        padding:0 70px;
+        margin-top: 12%;
+    }
+    input{
+        width: 100%;
+        border: none;
+        border-bottom: solid 2px lightgray;
+        margin-top: 2%;
+        font-size: 17px;
+    }
+    .btn-primary {
+        width: 30%;
+        background-color: saddlebrown;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        margin-top: 1.5%;
+        margin-left: 4%;
+    }
+    .d-inline{
+        display: inline-block;
+        margin-left: 17%;
+        position: absolute;
+    }
+    .d-inline:last-child{
+        display: inline-block;
+        margin-left: 19%;
+        position: absolute;
+    }
+    .d-inline a{
+        text-decoration: none;
+        color: sandybrown;
+    }
